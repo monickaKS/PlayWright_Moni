@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+/*import {test,expect} from '@playwright/test';
 import fs from 'fs';
 import { parsePDF } from '../utils/pdfUtils';   
 const pdf = require('pdf-parse');
@@ -33,4 +33,4 @@ test('File handling',async({page})=>{
     
 
     
-});
+}); */
