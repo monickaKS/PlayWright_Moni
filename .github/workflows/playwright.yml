@@ -27,7 +27,7 @@ jobs:
 
     - name: Run Playwright tests
       env:
-        BASE_URL: ${{ secrets.BASE_URL }}
+        BASE_URL: https://letcode.in/
         TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
         TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
       run: npx playwright test --reporter=html
