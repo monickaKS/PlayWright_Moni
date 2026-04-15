@@ -31,7 +31,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    baseURL: process.env.BASE_URL || 'https://rahulshettyacademy.com/loginpagePractise/' ,
+    baseURL: process.env.BASE_URL /*from dotenv*/
   },
 
   /* Configure projects for major browsers */
