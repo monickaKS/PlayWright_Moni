@@ -1,0 +1,75 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "main navigation" [ref=e3]:
+    - generic [ref=e4]:
+      - link "letcode" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "letcode" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "Work-Space" [ref=e10] [cursor=pointer]:
+            - /url: /test
+          - generic [ref=e12] [cursor=pointer]: Products
+          - generic [ref=e14] [cursor=pointer]: Grooming
+          - link "Courses" [ref=e15] [cursor=pointer]:
+            - /url: /courses
+          - link "Contact" [ref=e16] [cursor=pointer]:
+            - /url: /contact
+        - button "" [ref=e20] [cursor=pointer]:
+          - generic [ref=e22]: 
+  - generic [ref=e23]:
+    - generic [ref=e25]:
+      - heading "Your're lost, technically 404!" [level=1] [ref=e26]
+      - link " Go Back Home" [ref=e27] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e29]: 
+        - generic [ref=e30]: Go Back Home
+      - separator [ref=e31]
+      - figure [ref=e32]:
+        - img "Page not found" [ref=e33]
+        - insertion [ref=e35]:
+          - iframe [ref=e37]:
+            - generic [active] [ref=f3e1]:
+              - generic [ref=f3e5]:
+                - link [ref=f3e6] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cn9cRHeHgaaG6JPLesvsPief6gAf-yc_EhgGpxem-pRW_4R4QASDTkZYiYOWS6IPYDqABg8X5nwPIAQmpAp5zJSS_Ckc-qAMByAPLBKoE7QFP0JvAr9QDXtR_mIa1uHEGLW29PD-hbyfnlUU3_TCXCLkOaj-Hx1LUjt9p2M9kShTKUAsEGIh1ewvR5Sd2Dxlq-6VZnyQ70dM6JXhfwDcDR6POpTTpFkdBbRQvmJWwJ7uKKaQCeT9OBNJ3uz4OOSROiZTq63iumDvBuG9wQwbrUwdgYdONg06IBP3hkUqwox_Sgn-hkmt9XETwn-vlAr8PIQQghfy7JvOLtXKVb0XIy7KZBpr5IF0f-v4XC6EfndCePn-o7VRfEb06KBCO_u_zZLQI5lAdzULoJO1x2NwYJB0HHD57HqgrvogUgrzABMbTssjRBYgFhpTJq1igBi6AB4DJxwOoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5rhsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljYmPeXuvKTA7EJELOeB11TE7WACgGKCuwBaHR0cHM6Ly9waXhlbC5ldmVyZXN0dGVjaC5uZXQvODA5My9jcT9ldl9zaWQ9MyZldl9seD0mZXZfbG49JmV2X3BsPWxldGNvZGUuaW4mZXZfY3J4PTgwMzQ1NjU4ODM2OSZldl9tdD0mZXZfbj1kJmV2X2x0eD0mZXZfcG9zPSZldl9kdmM9YyZldl9kdm09JmV2X3BoeT05MDYxODk1JmV2X2xvYz0mZXZfY3g9MjM3MTM2OTYyNjImZXZfYXg9MTkzNjkzNzg4NjE0JmV2X2VmaWQ9e2djbGlkfTpHOnMmdXJsPXtscHVybH2YCwHICwHgCwGADAGiDAOQAQGqDQJJTsgNAeoNEwi0wfeXuvKTAxVyr2wJHYmzHnDwDQKIDgm4E-QD2BMN0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoNVGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE&num=1&cid=CAQS6gEABaugfVJwYFrlBGckptX0LA9S2K5qbY-5ydZbZUC5B_Xv3iEYqur5iUdPROZwZPp8v2_oHv53Xfuog_JNvK0OB1vql4ds_vBtbQTt4d8PwfiHSsue9eUjszum5r12rY5t9aQO_3z8LLfSNUQlppWkKBs4JNhSDsdyqlDrRai8m3qYTKxRjMciSuv7sPv37XS0cl56t6emH6ZXGW8hGec9IfC1e0dZOtZgr5WUkU_xsTeLdtjT5D-wGbESQ5IP5WsRDmDe4WYxlfQeQlcBkiRBvzil-Yz9ePxYW3ulNYbdSxczwsCPEEvR_qEYAQ&sig=AOD64_3DA-42d6YSX7B9qbw764lFDmpzCw&client=ca-pub-6251538267574677&rf=1&nb=9&adurl=https://www.lenovo.com/in/en/d/deals/yoga-ideapad/%3Fcid%3Din:display:cap5bf%26ef_id%3DEAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE:G:s%26s_kwcid%3DAL!8093!3!803456588369!!letcode.in!d!!%26gad_source%3D5%26gad_campaignid%3D23713696262%26gclid%3DEAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE
+                  - img [ref=f3e7]
+                - generic [ref=f3e8]:
+                  - link "Grab Lenovo Yoga 7i 2-in-1 Now" [ref=f3e11] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cn9cRHeHgaaG6JPLesvsPief6gAf-yc_EhgGpxem-pRW_4R4QASDTkZYiYOWS6IPYDqABg8X5nwPIAQmpAp5zJSS_Ckc-qAMByAPLBKoE7QFP0JvAr9QDXtR_mIa1uHEGLW29PD-hbyfnlUU3_TCXCLkOaj-Hx1LUjt9p2M9kShTKUAsEGIh1ewvR5Sd2Dxlq-6VZnyQ70dM6JXhfwDcDR6POpTTpFkdBbRQvmJWwJ7uKKaQCeT9OBNJ3uz4OOSROiZTq63iumDvBuG9wQwbrUwdgYdONg06IBP3hkUqwox_Sgn-hkmt9XETwn-vlAr8PIQQghfy7JvOLtXKVb0XIy7KZBpr5IF0f-v4XC6EfndCePn-o7VRfEb06KBCO_u_zZLQI5lAdzULoJO1x2NwYJB0HHD57HqgrvogUgrzABMbTssjRBYgFhpTJq1igBi6AB4DJxwOoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5rhsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljYmPeXuvKTA7EJELOeB11TE7WACgGKCuwBaHR0cHM6Ly9waXhlbC5ldmVyZXN0dGVjaC5uZXQvODA5My9jcT9ldl9zaWQ9MyZldl9seD0mZXZfbG49JmV2X3BsPWxldGNvZGUuaW4mZXZfY3J4PTgwMzQ1NjU4ODM2OSZldl9tdD0mZXZfbj1kJmV2X2x0eD0mZXZfcG9zPSZldl9kdmM9YyZldl9kdm09JmV2X3BoeT05MDYxODk1JmV2X2xvYz0mZXZfY3g9MjM3MTM2OTYyNjImZXZfYXg9MTkzNjkzNzg4NjE0JmV2X2VmaWQ9e2djbGlkfTpHOnMmdXJsPXtscHVybH2YCwHICwHgCwGADAGiDAOQAQGqDQJJTsgNAeoNEwi0wfeXuvKTAxVyr2wJHYmzHnDwDQKIDgm4E-QD2BMN0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoNVGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE&num=1&cid=CAQS6gEABaugfVJwYFrlBGckptX0LA9S2K5qbY-5ydZbZUC5B_Xv3iEYqur5iUdPROZwZPp8v2_oHv53Xfuog_JNvK0OB1vql4ds_vBtbQTt4d8PwfiHSsue9eUjszum5r12rY5t9aQO_3z8LLfSNUQlppWkKBs4JNhSDsdyqlDrRai8m3qYTKxRjMciSuv7sPv37XS0cl56t6emH6ZXGW8hGec9IfC1e0dZOtZgr5WUkU_xsTeLdtjT5D-wGbESQ5IP5WsRDmDe4WYxlfQeQlcBkiRBvzil-Yz9ePxYW3ulNYbdSxczwsCPEEvR_qEYAQ&sig=AOD64_3DA-42d6YSX7B9qbw764lFDmpzCw&client=ca-pub-6251538267574677&rf=1&nb=0&adurl=https://www.lenovo.com/in/en/d/deals/yoga-ideapad/%3Fcid%3Din:display:cap5bf%26ef_id%3DEAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE:G:s%26s_kwcid%3DAL!8093!3!803456588369!!letcode.in!d!!%26gad_source%3D5%26gad_campaignid%3D23713696262%26gclid%3DEAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE
+                  - generic [ref=f3e12]:
+                    - generic [ref=f3e13]:
+                      - link "Create without limits - Intel- powered Yoga 7i is still waiting for you" [ref=f3e15] [cursor=pointer]:
+                        - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cn9cRHeHgaaG6JPLesvsPief6gAf-yc_EhgGpxem-pRW_4R4QASDTkZYiYOWS6IPYDqABg8X5nwPIAQmpAp5zJSS_Ckc-qAMByAPLBKoE7QFP0JvAr9QDXtR_mIa1uHEGLW29PD-hbyfnlUU3_TCXCLkOaj-Hx1LUjt9p2M9kShTKUAsEGIh1ewvR5Sd2Dxlq-6VZnyQ70dM6JXhfwDcDR6POpTTpFkdBbRQvmJWwJ7uKKaQCeT9OBNJ3uz4OOSROiZTq63iumDvBuG9wQwbrUwdgYdONg06IBP3hkUqwox_Sgn-hkmt9XETwn-vlAr8PIQQghfy7JvOLtXKVb0XIy7KZBpr5IF0f-v4XC6EfndCePn-o7VRfEb06KBCO_u_zZLQI5lAdzULoJO1x2NwYJB0HHD57HqgrvogUgrzABMbTssjRBYgFhpTJq1igBi6AB4DJxwOoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5rhsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljYmPeXuvKTA7EJELOeB11TE7WACgGKCuwBaHR0cHM6Ly9waXhlbC5ldmVyZXN0dGVjaC5uZXQvODA5My9jcT9ldl9zaWQ9MyZldl9seD0mZXZfbG49JmV2X3BsPWxldGNvZGUuaW4mZXZfY3J4PTgwMzQ1NjU4ODM2OSZldl9tdD0mZXZfbj1kJmV2X2x0eD0mZXZfcG9zPSZldl9kdmM9YyZldl9kdm09JmV2X3BoeT05MDYxODk1JmV2X2xvYz0mZXZfY3g9MjM3MTM2OTYyNjImZXZfYXg9MTkzNjkzNzg4NjE0JmV2X2VmaWQ9e2djbGlkfTpHOnMmdXJsPXtscHVybH2YCwHICwHgCwGADAGiDAOQAQGqDQJJTsgNAeoNEwi0wfeXuvKTAxVyr2wJHYmzHnDwDQKIDgm4E-QD2BMN0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoNVGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE&num=1&cid=CAQS6gEABaugfVJwYFrlBGckptX0LA9S2K5qbY-5ydZbZUC5B_Xv3iEYqur5iUdPROZwZPp8v2_oHv53Xfuog_JNvK0OB1vql4ds_vBtbQTt4d8PwfiHSsue9eUjszum5r12rY5t9aQO_3z8LLfSNUQlppWkKBs4JNhSDsdyqlDrRai8m3qYTKxRjMciSuv7sPv37XS0cl56t6emH6ZXGW8hGec9IfC1e0dZOtZgr5WUkU_xsTeLdtjT5D-wGbESQ5IP5WsRDmDe4WYxlfQeQlcBkiRBvzil-Yz9ePxYW3ulNYbdSxczwsCPEEvR_qEYAQ&sig=AOD64_3DA-42d6YSX7B9qbw764lFDmpzCw&client=ca-pub-6251538267574677&rf=1&nb=7&adurl=https://www.lenovo.com/in/en/d/deals/yoga-ideapad/%3Fcid%3Din:display:cap5bf%26ef_id%3DEAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE:G:s%26s_kwcid%3DAL!8093!3!803456588369!!letcode.in!d!!%26gad_source%3D5%26gad_campaignid%3D23713696262%26gclid%3DEAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE
+                        - text: Create without limits - Intel-
+                        - text: powered Yoga 7i is still waiting
+                        - text: for you
+                      - link "Lenovo India" [ref=f3e17] [cursor=pointer]:
+                        - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cn9cRHeHgaaG6JPLesvsPief6gAf-yc_EhgGpxem-pRW_4R4QASDTkZYiYOWS6IPYDqABg8X5nwPIAQmpAp5zJSS_Ckc-qAMByAPLBKoE7QFP0JvAr9QDXtR_mIa1uHEGLW29PD-hbyfnlUU3_TCXCLkOaj-Hx1LUjt9p2M9kShTKUAsEGIh1ewvR5Sd2Dxlq-6VZnyQ70dM6JXhfwDcDR6POpTTpFkdBbRQvmJWwJ7uKKaQCeT9OBNJ3uz4OOSROiZTq63iumDvBuG9wQwbrUwdgYdONg06IBP3hkUqwox_Sgn-hkmt9XETwn-vlAr8PIQQghfy7JvOLtXKVb0XIy7KZBpr5IF0f-v4XC6EfndCePn-o7VRfEb06KBCO_u_zZLQI5lAdzULoJO1x2NwYJB0HHD57HqgrvogUgrzABMbTssjRBYgFhpTJq1igBi6AB4DJxwOoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5rhsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljYmPeXuvKTA7EJELOeB11TE7WACgGKCuwBaHR0cHM6Ly9waXhlbC5ldmVyZXN0dGVjaC5uZXQvODA5My9jcT9ldl9zaWQ9MyZldl9seD0mZXZfbG49JmV2X3BsPWxldGNvZGUuaW4mZXZfY3J4PTgwMzQ1NjU4ODM2OSZldl9tdD0mZXZfbj1kJmV2X2x0eD0mZXZfcG9zPSZldl9kdmM9YyZldl9kdm09JmV2X3BoeT05MDYxODk1JmV2X2xvYz0mZXZfY3g9MjM3MTM2OTYyNjImZXZfYXg9MTkzNjkzNzg4NjE0JmV2X2VmaWQ9e2djbGlkfTpHOnMmdXJsPXtscHVybH2YCwHICwHgCwGADAGiDAOQAQGqDQJJTsgNAeoNEwi0wfeXuvKTAxVyr2wJHYmzHnDwDQKIDgm4E-QD2BMN0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoNVGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE&num=1&cid=CAQS6gEABaugfVJwYFrlBGckptX0LA9S2K5qbY-5ydZbZUC5B_Xv3iEYqur5iUdPROZwZPp8v2_oHv53Xfuog_JNvK0OB1vql4ds_vBtbQTt4d8PwfiHSsue9eUjszum5r12rY5t9aQO_3z8LLfSNUQlppWkKBs4JNhSDsdyqlDrRai8m3qYTKxRjMciSuv7sPv37XS0cl56t6emH6ZXGW8hGec9IfC1e0dZOtZgr5WUkU_xsTeLdtjT5D-wGbESQ5IP5WsRDmDe4WYxlfQeQlcBkiRBvzil-Yz9ePxYW3ulNYbdSxczwsCPEEvR_qEYAQ&sig=AOD64_3DA-42d6YSX7B9qbw764lFDmpzCw&client=ca-pub-6251538267574677&rf=1&nb=1&adurl=https://www.lenovo.com/in/en/d/deals/yoga-ideapad/%3Fcid%3Din:display:cap5bf%26ef_id%3DEAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE:G:s%26s_kwcid%3DAL!8093!3!803456588369!!letcode.in!d!!%26gad_source%3D5%26gad_campaignid%3D23713696262%26gclid%3DEAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE
+                    - link "Open" [ref=f3e19] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cn9cRHeHgaaG6JPLesvsPief6gAf-yc_EhgGpxem-pRW_4R4QASDTkZYiYOWS6IPYDqABg8X5nwPIAQmpAp5zJSS_Ckc-qAMByAPLBKoE7QFP0JvAr9QDXtR_mIa1uHEGLW29PD-hbyfnlUU3_TCXCLkOaj-Hx1LUjt9p2M9kShTKUAsEGIh1ewvR5Sd2Dxlq-6VZnyQ70dM6JXhfwDcDR6POpTTpFkdBbRQvmJWwJ7uKKaQCeT9OBNJ3uz4OOSROiZTq63iumDvBuG9wQwbrUwdgYdONg06IBP3hkUqwox_Sgn-hkmt9XETwn-vlAr8PIQQghfy7JvOLtXKVb0XIy7KZBpr5IF0f-v4XC6EfndCePn-o7VRfEb06KBCO_u_zZLQI5lAdzULoJO1x2NwYJB0HHD57HqgrvogUgrzABMbTssjRBYgFhpTJq1igBi6AB4DJxwOoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5rhsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljYmPeXuvKTA7EJELOeB11TE7WACgGKCuwBaHR0cHM6Ly9waXhlbC5ldmVyZXN0dGVjaC5uZXQvODA5My9jcT9ldl9zaWQ9MyZldl9seD0mZXZfbG49JmV2X3BsPWxldGNvZGUuaW4mZXZfY3J4PTgwMzQ1NjU4ODM2OSZldl9tdD0mZXZfbj1kJmV2X2x0eD0mZXZfcG9zPSZldl9kdmM9YyZldl9kdm09JmV2X3BoeT05MDYxODk1JmV2X2xvYz0mZXZfY3g9MjM3MTM2OTYyNjImZXZfYXg9MTkzNjkzNzg4NjE0JmV2X2VmaWQ9e2djbGlkfTpHOnMmdXJsPXtscHVybH2YCwHICwHgCwGADAGiDAOQAQGqDQJJTsgNAeoNEwi0wfeXuvKTAxVyr2wJHYmzHnDwDQKIDgm4E-QD2BMN0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoNVGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE&num=1&cid=CAQS6gEABaugfVJwYFrlBGckptX0LA9S2K5qbY-5ydZbZUC5B_Xv3iEYqur5iUdPROZwZPp8v2_oHv53Xfuog_JNvK0OB1vql4ds_vBtbQTt4d8PwfiHSsue9eUjszum5r12rY5t9aQO_3z8LLfSNUQlppWkKBs4JNhSDsdyqlDrRai8m3qYTKxRjMciSuv7sPv37XS0cl56t6emH6ZXGW8hGec9IfC1e0dZOtZgr5WUkU_xsTeLdtjT5D-wGbESQ5IP5WsRDmDe4WYxlfQeQlcBkiRBvzil-Yz9ePxYW3ulNYbdSxczwsCPEEvR_qEYAQ&sig=AOD64_3DA-42d6YSX7B9qbw764lFDmpzCw&client=ca-pub-6251538267574677&rf=1&nb=8&adurl=https://www.lenovo.com/in/en/d/deals/yoga-ideapad/%3Fcid%3Din:display:cap5bf%26ef_id%3DEAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE:G:s%26s_kwcid%3DAL!8093!3!803456588369!!letcode.in!d!!%26gad_source%3D5%26gad_campaignid%3D23713696262%26gclid%3DEAIaIQobChMI4bz3l7rykwMVcq9sCR2Jsx5wEAEYASAAEgIevvD_BwE
+                      - generic [ref=f3e21]: Open
+              - img [ref=f3e27] [cursor=pointer]
+              - button [ref=f3e29] [cursor=pointer]:
+                - img [ref=f3e30]
+              - iframe
+    - generic [ref=e39]:
+      - generic:
+        - generic:
+          - generic:
+            - insertion
+  - contentinfo [ref=e41]:
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - paragraph [ref=e45]: LetCode by Koushik Chatterjee
+        - paragraph [ref=e46]: Empowering Test Automation Engineers through learning
+      - paragraph [ref=e48]:
+        - text: © 2025 LetCode | Created by
+        - link "Koushik Chatterjee" [ref=e49] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/ortoni/
+        - text: "&"
+        - link "Bollineni Lakshmi Yaswanth" [ref=e50] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+```

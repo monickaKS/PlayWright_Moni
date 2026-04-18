@@ -1,0 +1,13 @@
+Total Menu items are 12
+Admin
+PIM
+Leave
+Time
+Recruitment
+My Info
+Performance
+Dashboard
+Directory
+Maintenance
+Claim
+Buzz

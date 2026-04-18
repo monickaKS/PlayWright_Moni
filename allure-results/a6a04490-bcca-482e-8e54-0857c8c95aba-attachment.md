@@ -1,0 +1,260 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link [ref=e10] [cursor=pointer]:
+              - /url: /test
+              - text: Work-Space
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link [ref=e15] [cursor=pointer]:
+              - /url: /courses
+              - text: Courses
+            - link [ref=e16] [cursor=pointer]:
+              - /url: /contact
+              - text: Contact
+          - button [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - generic [ref=e25]:
+        - heading [level=1] [ref=e26]: Ready to be a Pro Engineer?
+        - paragraph [ref=e27]: Practice test automation!
+      - generic [ref=e31]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: POM
+            - figure [ref=e38] [cursor=pointer]:
+              - img [ref=e39]
+          - paragraph [ref=e42]: Practice Page Object Model with fakestore
+          - link [ref=e44] [cursor=pointer]:
+            - /url: /home
+            - text: Page Object Model
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - paragraph [ref=e49]: Input
+            - figure [ref=e51] [cursor=pointer]:
+              - img [ref=e52]
+          - paragraph [ref=e55]: Interact with different types of input fields
+          - link [ref=e57] [cursor=pointer]:
+            - /url: /edit
+            - text: Edit
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - paragraph [ref=e62]: Button
+            - figure [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+          - paragraph [ref=e68]: Interact with different types of buttons
+          - link [ref=e70] [cursor=pointer]:
+            - /url: /button
+            - text: Click
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - paragraph [ref=e75]: Select
+            - figure [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+          - paragraph [ref=e81]: Interact with different types of drop-down
+          - link [ref=e83] [cursor=pointer]:
+            - /url: /dropdowns
+            - text: Drop-Down
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - paragraph [ref=e88]: Alert
+            - figure [ref=e90] [cursor=pointer]:
+              - img [ref=e91]
+          - paragraph [ref=e94]: Interact with different types of dialog boxes
+          - link [ref=e96] [cursor=pointer]:
+            - /url: /alert
+            - text: Dialog
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - paragraph [ref=e101]: Frame
+            - figure [ref=e103] [cursor=pointer]:
+              - img [ref=e104]
+          - paragraph [ref=e107]: Interact with different types of frames/iframes
+          - link [ref=e109] [cursor=pointer]:
+            - /url: /frame
+            - text: Inner HTML
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - paragraph [ref=e114]: Radio
+            - figure [ref=e116] [cursor=pointer]:
+              - img [ref=e117]
+          - paragraph [ref=e120]: Interact with different types of radio & check boxes
+          - link [ref=e122] [cursor=pointer]:
+            - /url: /radio
+            - text: Toggle
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - paragraph [ref=e127]: Window
+            - figure [ref=e129] [cursor=pointer]:
+              - img [ref=e130]
+          - paragraph [ref=e133]: Switch different types of tabs or windows
+          - link [ref=e135] [cursor=pointer]:
+            - /url: /window
+            - text: Tabs
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - paragraph [ref=e140]: Elements
+            - figure [ref=e142] [cursor=pointer]:
+              - img [ref=e143]
+          - paragraph [ref=e146]: Play with element and smash them
+          - link [ref=e148] [cursor=pointer]:
+            - /url: /elements
+            - text: Find Elements
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - paragraph [ref=e153]: Drag
+            - figure [ref=e155] [cursor=pointer]:
+              - img [ref=e156]
+          - paragraph [ref=e159]: Drag me here and there
+          - link [ref=e161] [cursor=pointer]:
+            - /url: /draggable
+            - text: AUI - 1
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - paragraph [ref=e166]: Drop
+            - figure [ref=e168] [cursor=pointer]:
+              - img [ref=e169]
+          - paragraph [ref=e172]: Feel free to bounce me
+          - link [ref=e174] [cursor=pointer]:
+            - /url: /droppable
+            - text: AUI - 2
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - paragraph [ref=e179]: Sort
+            - figure [ref=e181] [cursor=pointer]:
+              - img [ref=e182]
+          - paragraph [ref=e185]: Sort out the problem quickly
+          - link [ref=e187] [cursor=pointer]:
+            - /url: /sortable
+            - text: AUI - 3
+        - generic [ref=e190]:
+          - generic [ref=e191]:
+            - paragraph [ref=e192]: Multi-Select
+            - figure [ref=e194] [cursor=pointer]:
+              - img [ref=e195]
+          - paragraph [ref=e198]: Be a multi-tasker
+          - link [ref=e200] [cursor=pointer]:
+            - /url: /selectable
+            - text: AUI - 4
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - paragraph [ref=e205]: Slider
+            - figure [ref=e207] [cursor=pointer]:
+              - img [ref=e208]
+          - paragraph [ref=e211]: Hmm.. Can you slide me?
+          - link [ref=e213] [cursor=pointer]:
+            - /url: /slider
+            - text: AUI - 5
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - paragraph [ref=e218]: Waits
+            - figure [ref=e220] [cursor=pointer]:
+              - img [ref=e221]
+          - paragraph [ref=e224]: It's ok to wait but you know..
+          - link [ref=e226] [cursor=pointer]:
+            - /url: /waits
+            - text: Timeout
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - paragraph [ref=e231]: Table
+            - figure [ref=e233] [cursor=pointer]:
+              - img [ref=e234]
+          - paragraph [ref=e237]: It's all about rows & columns
+          - link [ref=e239] [cursor=pointer]:
+            - /url: /table
+            - text: Simple table
+        - generic [ref=e242]:
+          - generic [ref=e243]:
+            - paragraph [ref=e244]: Table
+            - figure [ref=e246] [cursor=pointer]:
+              - img [ref=e247]
+          - paragraph [ref=e250]: It's little complicated but give a try
+          - link [ref=e252] [cursor=pointer]:
+            - /url: /advancedtable
+            - text: Advance table
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - paragraph [ref=e257]: Calendar
+            - figure [ref=e259] [cursor=pointer]:
+              - img [ref=e260]
+          - paragraph [ref=e263]: My time is precious & your?
+          - link [ref=e265] [cursor=pointer]:
+            - /url: /calendar
+            - text: Date & Time
+        - generic [ref=e268]:
+          - generic [ref=e269]:
+            - paragraph [ref=e270]: Forms
+            - figure [ref=e272] [cursor=pointer]:
+              - img [ref=e273]
+          - paragraph [ref=e276]: Interact with everything
+          - link [ref=e278] [cursor=pointer]:
+            - /url: /forms
+            - text: All in One
+        - generic [ref=e281]:
+          - generic [ref=e282]:
+            - paragraph [ref=e283]: File
+            - figure [ref=e285] [cursor=pointer]:
+              - img [ref=e286]
+          - paragraph [ref=e289]: All your data is secured!
+          - link [ref=e291] [cursor=pointer]:
+            - /url: /file
+            - text: File management
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - paragraph [ref=e296]: Shadow
+            - figure [ref=e298] [cursor=pointer]:
+              - img [ref=e299]
+          - paragraph [ref=e302]: Shadow never leaves us alone
+          - link [ref=e304] [cursor=pointer]:
+            - /url: /shadow
+            - text: DOM
+    - contentinfo [ref=e308]:
+      - generic [ref=e310]:
+        - generic [ref=e311]:
+          - paragraph [ref=e312]: LetCode by Koushik Chatterjee
+          - paragraph [ref=e313]: Empowering Test Automation Engineers through learning
+        - paragraph [ref=e315]:
+          - text: © 2025 LetCode | Created by
+          - link [ref=e316] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ortoni/
+            - text: Koushik Chatterjee
+          - text: "&"
+          - link [ref=e317] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+            - text: Bollineni Lakshmi Yaswanth
+  - iframe [ref=e318]:
+    
+  - insertion [ref=e319]:
+    - iframe [ref=e322]:
+      - generic [active] [ref=f8e1]:
+        - generic [ref=f8e5]:
+          - link [ref=f8e6] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CakJGbrHgaeniCsqJpt8Pi-aQyAeQ_LnFhgGJurGe8BW1kB8QASDTkZYiYOWS6IPYDqABxNHfxkDIAQmpAmdkeeu2Bkc-qAMByAPLBKoE6QFP0J-DO3LmxyjrjHA8GKkrNBipSVWoOd7qqv2nCkiqODYvTUHIoKLoB_ZqIaSKp_0Yy--thRhi7miLxTBZ0C36ktYn_YaMVe5yTmjm9VQM7ce67j8bf4466vSnBxtqGNjIX6LmtS_Kd2MMs7FvIjoxjTDJ_p0DCwxhFfsiCTusqKo0uCYXc-ii45qjoIvGswK1h0AHNEC975clco-DkPS_2HuzA3mKC5XTaMpZQbs_9D0YIN9zKuZ0xHgRgub6HfzbaQg7BiJNR5tXvt2S3XCe2F9CpxCKxVuJpn2aZbOnqK9M7leRRDDsy8AElP6zl_gFiAXLk_rDWKAGLoAHxImwphuoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5rhsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlikjvzajPKTA7EJPbQQbyoaAQqACgGYCwHICwGADAGiDAOQAQGqDQJJTsgNAeoNEwiT2_3ajPKTAxXKhOkFHQszBHnwDQKIDgm4E-QD2BMD0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSArtPGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI6dH92ozykwMVyoTpBR0LMwR5EAEYASAAEgJQwPD_BwE&num=1&cid=CAQS_QEABaugfaPTNILb0mb8YBmOOuLP_AyfRj02WkOGXRpUvf2MFbBfz9wZ8jj8fLVOMdJBWkx3bP1tuYRGloYaa6BTnN1ZuE3nSZpVUSHWmvd9sckcK10A78Yk3H7nwtFjoOUbQpEdLxNTYyXL_-vzJ7BwcW1L_7awSDx992Z4Jk3o4cepWlbiJAswBfV2fo7lZ7_uXLCGt6Jzk46D0CEipsUEj2goSxCvDOVQjXW2gHW3l3w_zN6QByzuepmKC4OljYA34psKrpZZQd7XYzztR9qwXbWV01aBjho7te-6fkxxNzfMS0K8TkwYu9qQ_X3NJ87v9W1GZMAmBrwu6YaVGAE&sig=AOD64_1kkdiaUQWBsD7eaSWJ_5UYv4a10g&client=ca-pub-6251538267574677&rf=1&nb=9&adurl=https://www.sonatawatches.in/shop/sonata-gold%3Futm_source%3Dyt_awareness%26utm_medium%3Dcpm%26utm_campaign%3Dsonata_gold_april_26%26gad_source%3D5%26gad_campaignid%3D23764830667%26gclid%3DEAIaIQobChMI6dH92ozykwMVyoTpBR0LMwR5EAEYASAAEgJQwPD_BwE
+            - img [ref=f8e7]
+          - generic [ref=f8e8]:
+            - link "Titan" [ref=f8e11] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CakJGbrHgaeniCsqJpt8Pi-aQyAeQ_LnFhgGJurGe8BW1kB8QASDTkZYiYOWS6IPYDqABxNHfxkDIAQmpAmdkeeu2Bkc-qAMByAPLBKoE6QFP0J-DO3LmxyjrjHA8GKkrNBipSVWoOd7qqv2nCkiqODYvTUHIoKLoB_ZqIaSKp_0Yy--thRhi7miLxTBZ0C36ktYn_YaMVe5yTmjm9VQM7ce67j8bf4466vSnBxtqGNjIX6LmtS_Kd2MMs7FvIjoxjTDJ_p0DCwxhFfsiCTusqKo0uCYXc-ii45qjoIvGswK1h0AHNEC975clco-DkPS_2HuzA3mKC5XTaMpZQbs_9D0YIN9zKuZ0xHgRgub6HfzbaQg7BiJNR5tXvt2S3XCe2F9CpxCKxVuJpn2aZbOnqK9M7leRRDDsy8AElP6zl_gFiAXLk_rDWKAGLoAHxImwphuoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5rhsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlikjvzajPKTA7EJPbQQbyoaAQqACgGYCwHICwGADAGiDAOQAQGqDQJJTsgNAeoNEwiT2_3ajPKTAxXKhOkFHQszBHnwDQKIDgm4E-QD2BMD0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSArtPGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI6dH92ozykwMVyoTpBR0LMwR5EAEYASAAEgJQwPD_BwE&num=1&cid=CAQS_QEABaugfaPTNILb0mb8YBmOOuLP_AyfRj02WkOGXRpUvf2MFbBfz9wZ8jj8fLVOMdJBWkx3bP1tuYRGloYaa6BTnN1ZuE3nSZpVUSHWmvd9sckcK10A78Yk3H7nwtFjoOUbQpEdLxNTYyXL_-vzJ7BwcW1L_7awSDx992Z4Jk3o4cepWlbiJAswBfV2fo7lZ7_uXLCGt6Jzk46D0CEipsUEj2goSxCvDOVQjXW2gHW3l3w_zN6QByzuepmKC4OljYA34psKrpZZQd7XYzztR9qwXbWV01aBjho7te-6fkxxNzfMS0K8TkwYu9qQ_X3NJ87v9W1GZMAmBrwu6YaVGAE&sig=AOD64_1kkdiaUQWBsD7eaSWJ_5UYv4a10g&client=ca-pub-6251538267574677&rf=1&nb=1&adurl=https://www.sonatawatches.in/shop/sonata-gold%3Futm_source%3Dyt_awareness%26utm_medium%3Dcpm%26utm_campaign%3Dsonata_gold_april_26%26gad_source%3D5%26gad_campaignid%3D23764830667%26gclid%3DEAIaIQobChMI6dH92ozykwMVyoTpBR0LMwR5EAEYASAAEgJQwPD_BwE
+            - link "A Touch of Gold Within Time" [ref=f8e13] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CakJGbrHgaeniCsqJpt8Pi-aQyAeQ_LnFhgGJurGe8BW1kB8QASDTkZYiYOWS6IPYDqABxNHfxkDIAQmpAmdkeeu2Bkc-qAMByAPLBKoE6QFP0J-DO3LmxyjrjHA8GKkrNBipSVWoOd7qqv2nCkiqODYvTUHIoKLoB_ZqIaSKp_0Yy--thRhi7miLxTBZ0C36ktYn_YaMVe5yTmjm9VQM7ce67j8bf4466vSnBxtqGNjIX6LmtS_Kd2MMs7FvIjoxjTDJ_p0DCwxhFfsiCTusqKo0uCYXc-ii45qjoIvGswK1h0AHNEC975clco-DkPS_2HuzA3mKC5XTaMpZQbs_9D0YIN9zKuZ0xHgRgub6HfzbaQg7BiJNR5tXvt2S3XCe2F9CpxCKxVuJpn2aZbOnqK9M7leRRDDsy8AElP6zl_gFiAXLk_rDWKAGLoAHxImwphuoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5rhsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlikjvzajPKTA7EJPbQQbyoaAQqACgGYCwHICwGADAGiDAOQAQGqDQJJTsgNAeoNEwiT2_3ajPKTAxXKhOkFHQszBHnwDQKIDgm4E-QD2BMD0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSArtPGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI6dH92ozykwMVyoTpBR0LMwR5EAEYASAAEgJQwPD_BwE&num=1&cid=CAQS_QEABaugfaPTNILb0mb8YBmOOuLP_AyfRj02WkOGXRpUvf2MFbBfz9wZ8jj8fLVOMdJBWkx3bP1tuYRGloYaa6BTnN1ZuE3nSZpVUSHWmvd9sckcK10A78Yk3H7nwtFjoOUbQpEdLxNTYyXL_-vzJ7BwcW1L_7awSDx992Z4Jk3o4cepWlbiJAswBfV2fo7lZ7_uXLCGt6Jzk46D0CEipsUEj2goSxCvDOVQjXW2gHW3l3w_zN6QByzuepmKC4OljYA34psKrpZZQd7XYzztR9qwXbWV01aBjho7te-6fkxxNzfMS0K8TkwYu9qQ_X3NJ87v9W1GZMAmBrwu6YaVGAE&sig=AOD64_1kkdiaUQWBsD7eaSWJ_5UYv4a10g&client=ca-pub-6251538267574677&rf=1&nb=0&adurl=https://www.sonatawatches.in/shop/sonata-gold%3Futm_source%3Dyt_awareness%26utm_medium%3Dcpm%26utm_campaign%3Dsonata_gold_april_26%26gad_source%3D5%26gad_campaignid%3D23764830667%26gclid%3DEAIaIQobChMI6dH92ozykwMVyoTpBR0LMwR5EAEYASAAEgJQwPD_BwE
+          - link "Open" [ref=f8e16] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CakJGbrHgaeniCsqJpt8Pi-aQyAeQ_LnFhgGJurGe8BW1kB8QASDTkZYiYOWS6IPYDqABxNHfxkDIAQmpAmdkeeu2Bkc-qAMByAPLBKoE6QFP0J-DO3LmxyjrjHA8GKkrNBipSVWoOd7qqv2nCkiqODYvTUHIoKLoB_ZqIaSKp_0Yy--thRhi7miLxTBZ0C36ktYn_YaMVe5yTmjm9VQM7ce67j8bf4466vSnBxtqGNjIX6LmtS_Kd2MMs7FvIjoxjTDJ_p0DCwxhFfsiCTusqKo0uCYXc-ii45qjoIvGswK1h0AHNEC975clco-DkPS_2HuzA3mKC5XTaMpZQbs_9D0YIN9zKuZ0xHgRgub6HfzbaQg7BiJNR5tXvt2S3XCe2F9CpxCKxVuJpn2aZbOnqK9M7leRRDDsy8AElP6zl_gFiAXLk_rDWKAGLoAHxImwphuoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5rhsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlikjvzajPKTA7EJPbQQbyoaAQqACgGYCwHICwGADAGiDAOQAQGqDQJJTsgNAeoNEwiT2_3ajPKTAxXKhOkFHQszBHnwDQKIDgm4E-QD2BMD0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSArtPGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI6dH92ozykwMVyoTpBR0LMwR5EAEYASAAEgJQwPD_BwE&num=1&cid=CAQS_QEABaugfaPTNILb0mb8YBmOOuLP_AyfRj02WkOGXRpUvf2MFbBfz9wZ8jj8fLVOMdJBWkx3bP1tuYRGloYaa6BTnN1ZuE3nSZpVUSHWmvd9sckcK10A78Yk3H7nwtFjoOUbQpEdLxNTYyXL_-vzJ7BwcW1L_7awSDx992Z4Jk3o4cepWlbiJAswBfV2fo7lZ7_uXLCGt6Jzk46D0CEipsUEj2goSxCvDOVQjXW2gHW3l3w_zN6QByzuepmKC4OljYA34psKrpZZQd7XYzztR9qwXbWV01aBjho7te-6fkxxNzfMS0K8TkwYu9qQ_X3NJ87v9W1GZMAmBrwu6YaVGAE&sig=AOD64_1kkdiaUQWBsD7eaSWJ_5UYv4a10g&client=ca-pub-6251538267574677&rf=1&nb=8&adurl=https://www.sonatawatches.in/shop/sonata-gold%3Futm_source%3Dyt_awareness%26utm_medium%3Dcpm%26utm_campaign%3Dsonata_gold_april_26%26gad_source%3D5%26gad_campaignid%3D23764830667%26gclid%3DEAIaIQobChMI6dH92ozykwMVyoTpBR0LMwR5EAEYASAAEgJQwPD_BwE
+            - generic [ref=f8e18]: Open
+        - img [ref=f8e23] [cursor=pointer]
+        - button [ref=f8e25] [cursor=pointer]:
+          - img [ref=f8e26]
+        - iframe
+  - generic [ref=e323]:
+    - generic [ref=e324] [cursor=pointer]:
+      - img [ref=e326]
+      - link [ref=e328]: Open Source
+    - button [ref=e329]
+```

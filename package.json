@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test:shadow": "npx playwright test tests/ShadowDOM.spec.js",
+    "test:Slider": "npx playwright test tests/Slider.spec.js"
   },
   "keywords": [],
   "author": "",

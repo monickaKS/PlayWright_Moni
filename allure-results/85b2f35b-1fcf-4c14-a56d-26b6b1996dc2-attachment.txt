@@ -1,0 +1,73 @@
+Total Menu items are 12
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3105,
+  [Symbol(trigger_async_id_symbol)]: 3011,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3123,
+  [Symbol(trigger_async_id_symbol)]: 3011,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3141,
+  [Symbol(trigger_async_id_symbol)]: 3011,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3159,
+  [Symbol(trigger_async_id_symbol)]: 3011,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3177,
+  [Symbol(trigger_async_id_symbol)]: 3011,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3195,
+  [Symbol(trigger_async_id_symbol)]: 3011,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3213,
+  [Symbol(trigger_async_id_symbol)]: 3011,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3231,
+  [Symbol(trigger_async_id_symbol)]: 3011,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3249,
+  [Symbol(trigger_async_id_symbol)]: 3011,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3267,
+  [Symbol(trigger_async_id_symbol)]: 3011,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3285,
+  [Symbol(trigger_async_id_symbol)]: 3011,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3303,
+  [Symbol(trigger_async_id_symbol)]: 3011,
+  [Symbol(kResourceStore)]: undefined
+}

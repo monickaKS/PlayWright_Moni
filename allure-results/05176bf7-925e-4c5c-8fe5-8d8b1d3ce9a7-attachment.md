@@ -1,0 +1,61 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "main navigation" [ref=e3]:
+    - generic [ref=e4]:
+      - link "letcode" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "letcode" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "Work-Space" [ref=e10] [cursor=pointer]:
+            - /url: /test
+          - generic [ref=e12] [cursor=pointer]: Products
+          - generic [ref=e14] [cursor=pointer]: Grooming
+          - link "Courses" [ref=e15] [cursor=pointer]:
+            - /url: /courses
+          - link "Contact" [ref=e16] [cursor=pointer]:
+            - /url: /contact
+        - button "" [ref=e20] [cursor=pointer]:
+          - generic [ref=e22]: 
+  - generic [ref=e23]:
+    - generic [ref=e25]:
+      - heading "Your're lost, technically 404!" [level=1] [ref=e26]
+      - link " Go Back Home" [ref=e27] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e29]: 
+        - generic [ref=e30]: Go Back Home
+      - separator [ref=e31]
+      - figure [ref=e32]:
+        - img "Page not found" [ref=e33]
+        - insertion [ref=e35]:
+          - generic [ref=e38]:
+            - heading "These are topics related to the article that might interest you" [level=2] [ref=e40]: Discover more
+            - link "Open Source" [ref=e41] [cursor=pointer]:
+              - generic "Open Source" [ref=e42]
+              - img [ref=e44]
+            - link "LetCode Courses Subscription" [ref=e46] [cursor=pointer]:
+              - generic "LetCode Courses Subscription" [ref=e47]
+              - img [ref=e49]
+            - link "Software Development Courses" [ref=e51] [cursor=pointer]:
+              - generic "Software Development Courses" [ref=e52]
+              - img [ref=e54]
+    - generic [ref=e57]:
+      - generic:
+        - generic:
+          - generic:
+            - insertion
+  - contentinfo [ref=e59]:
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - paragraph [ref=e63]: LetCode by Koushik Chatterjee
+        - paragraph [ref=e64]: Empowering Test Automation Engineers through learning
+      - paragraph [ref=e66]:
+        - text: © 2025 LetCode | Created by
+        - link "Koushik Chatterjee" [ref=e67] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/ortoni/
+        - text: "&"
+        - link "Bollineni Lakshmi Yaswanth" [ref=e68] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+```

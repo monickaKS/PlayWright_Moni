@@ -1,11 +1,11 @@
 import {test} from '../pages/fixtures';  
 import { expect } from '@playwright/test';
 test('ShadowDOM',async({WorkSpacePage})=>{
-    await expect(WorkSpacePage).toHaveTitle( "Workspace | LetCode with Koushik");
- await WorkSpacePage.getByRole('link',{name :' DOM '}).click();
-  await expect(WorkSpacePage.locator(".is-pulled-left")).toBeVisible();
-  await WorkSpacePage.locator("#fname").fill("Monicka");
-  await WorkSpacePage.pause();
+    await WorkSpacePage.verifyMainTitle();
+ await WorkSpacePage.clickDom();
+  await WorkSpacePage.verifyTitle();
+  await WorkSpacePage.fillName("Monicka");
+  //await WorkSpacePage.pause();
   
     
     

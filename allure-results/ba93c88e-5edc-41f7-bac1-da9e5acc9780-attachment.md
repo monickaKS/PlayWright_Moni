@@ -1,0 +1,215 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [active] [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - generic [ref=e25]:
+        - heading "Ready to be a Pro Engineer?" [level=1] [ref=e26]
+        - paragraph [ref=e27]: Practice test automation!
+      - generic [ref=e31]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: POM
+            - figure [ref=e38] [cursor=pointer]:
+              - img "product" [ref=e39]
+          - paragraph [ref=e42]: Practice Page Object Model with fakestore
+          - link "Page Object Model" [ref=e44] [cursor=pointer]:
+            - /url: /home
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - paragraph [ref=e49]: Input
+            - figure [ref=e51] [cursor=pointer]:
+              - img "edit" [ref=e52]
+          - paragraph [ref=e55]: Interact with different types of input fields
+          - link "Edit" [ref=e57] [cursor=pointer]:
+            - /url: /edit
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - paragraph [ref=e62]: Button
+            - figure [ref=e64] [cursor=pointer]:
+              - img "button"
+          - paragraph [ref=e67]: Interact with different types of buttons
+          - link "Click" [ref=e69] [cursor=pointer]:
+            - /url: /button
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - paragraph [ref=e74]: Select
+            - figure [ref=e76] [cursor=pointer]:
+              - img "select"
+          - paragraph [ref=e79]: Interact with different types of drop-down
+          - link "Drop-Down" [ref=e81] [cursor=pointer]:
+            - /url: /dropdowns
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - paragraph [ref=e86]: Alert
+            - figure [ref=e88] [cursor=pointer]:
+              - img "alert"
+          - paragraph [ref=e91]: Interact with different types of dialog boxes
+          - link "Dialog" [ref=e93] [cursor=pointer]:
+            - /url: /alert
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - paragraph [ref=e98]: Frame
+            - figure [ref=e100] [cursor=pointer]:
+              - img "frame"
+          - paragraph [ref=e103]: Interact with different types of frames/iframes
+          - link "Inner HTML" [ref=e105] [cursor=pointer]:
+            - /url: /frame
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - paragraph [ref=e110]: Radio
+            - figure [ref=e112] [cursor=pointer]:
+              - img "radio"
+          - paragraph [ref=e115]: Interact with different types of radio & check boxes
+          - link "Toggle" [ref=e117] [cursor=pointer]:
+            - /url: /radio
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - paragraph [ref=e122]: Window
+            - figure [ref=e124] [cursor=pointer]:
+              - img "alert"
+          - paragraph [ref=e127]: Switch different types of tabs or windows
+          - link "Tabs" [ref=e129] [cursor=pointer]:
+            - /url: /window
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - paragraph [ref=e134]: Elements
+            - figure [ref=e136] [cursor=pointer]:
+              - img "elements"
+          - paragraph [ref=e139]: Play with element and smash them
+          - link "Find Elements" [ref=e141] [cursor=pointer]:
+            - /url: /elements
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - paragraph [ref=e146]: Drag
+            - figure [ref=e148] [cursor=pointer]:
+              - img "drag"
+          - paragraph [ref=e151]: Drag me here and there
+          - link "AUI - 1" [ref=e153] [cursor=pointer]:
+            - /url: /draggable
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - paragraph [ref=e158]: Drop
+            - figure [ref=e160] [cursor=pointer]:
+              - img "alert"
+          - paragraph [ref=e163]: Feel free to bounce me
+          - link "AUI - 2" [ref=e165] [cursor=pointer]:
+            - /url: /droppable
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - paragraph [ref=e170]: Sort
+            - figure [ref=e172] [cursor=pointer]:
+              - img "sort"
+          - paragraph [ref=e175]: Sort out the problem quickly
+          - link "AUI - 3" [ref=e177] [cursor=pointer]:
+            - /url: /sortable
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - paragraph [ref=e182]: Multi-Select
+            - figure [ref=e184] [cursor=pointer]:
+              - img "selectable"
+          - paragraph [ref=e187]: Be a multi-tasker
+          - link "AUI - 4" [ref=e189] [cursor=pointer]:
+            - /url: /selectable
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - paragraph [ref=e194]: Slider
+            - figure [ref=e196] [cursor=pointer]:
+              - img "slider"
+          - paragraph [ref=e199]: Hmm.. Can you slide me?
+          - link "AUI - 5" [ref=e201] [cursor=pointer]:
+            - /url: /slider
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - paragraph [ref=e206]: Waits
+            - figure [ref=e208] [cursor=pointer]:
+              - img "waits"
+          - paragraph [ref=e211]: It's ok to wait but you know..
+          - link "Timeout" [ref=e213] [cursor=pointer]:
+            - /url: /waits
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - paragraph [ref=e218]: Table
+            - figure [ref=e220] [cursor=pointer]:
+              - img "table"
+          - paragraph [ref=e223]: It's all about rows & columns
+          - link "Simple table" [ref=e225] [cursor=pointer]:
+            - /url: /table
+        - generic [ref=e228]:
+          - generic [ref=e229]:
+            - paragraph [ref=e230]: Table
+            - figure [ref=e232] [cursor=pointer]:
+              - img "table2"
+          - paragraph [ref=e235]: It's little complicated but give a try
+          - link "Advance table" [ref=e237] [cursor=pointer]:
+            - /url: /advancedtable
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - paragraph [ref=e242]: Calendar
+            - figure [ref=e244] [cursor=pointer]:
+              - img "calendar"
+          - paragraph [ref=e247]: My time is precious & your?
+          - link "Date & Time" [ref=e249] [cursor=pointer]:
+            - /url: /calendar
+        - generic [ref=e252]:
+          - generic [ref=e253]:
+            - paragraph [ref=e254]: Forms
+            - figure [ref=e256] [cursor=pointer]:
+              - img "forms"
+          - paragraph [ref=e259]: Interact with everything
+          - link "All in One" [ref=e261] [cursor=pointer]:
+            - /url: /forms
+        - generic [ref=e264]:
+          - generic [ref=e265]:
+            - paragraph [ref=e266]: File
+            - figure [ref=e268] [cursor=pointer]:
+              - img "file"
+          - paragraph [ref=e271]: All your data is secured!
+          - link "File management" [ref=e273] [cursor=pointer]:
+            - /url: /file
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - paragraph [ref=e278]: Shadow
+            - figure [ref=e280] [cursor=pointer]:
+              - img "shadow"
+          - paragraph [ref=e283]: Shadow never leaves us alone
+          - link "DOM" [ref=e285] [cursor=pointer]:
+            - /url: /shadow
+      - generic [ref=e287]:
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - contentinfo [ref=e289]:
+      - generic [ref=e291]:
+        - generic [ref=e292]:
+          - paragraph [ref=e293]: LetCode by Koushik Chatterjee
+          - paragraph [ref=e294]: Empowering Test Automation Engineers through learning
+        - paragraph [ref=e296]:
+          - text: © 2025 LetCode | Created by
+          - link "Koushik Chatterjee" [ref=e297] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ortoni/
+          - text: "&"
+          - link "Bollineni Lakshmi Yaswanth" [ref=e298] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - iframe [ref=e299]:
+    
+```

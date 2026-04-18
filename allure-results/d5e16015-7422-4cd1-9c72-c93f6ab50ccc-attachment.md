@@ -1,0 +1,64 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - generic [ref=e25]:
+        - heading "Your're lost, technically 404!" [level=1] [ref=e26]
+        - link " Go Back Home" [ref=e27] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e29]: 
+          - generic [ref=e30]: Go Back Home
+        - separator [ref=e31]
+        - figure [ref=e32]:
+          - img "Page not found" [ref=e33]
+          - generic:
+            - insertion:
+              - generic:
+                - iframe
+      - generic [ref=e35]:
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - contentinfo [ref=e37]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: LetCode by Koushik Chatterjee
+          - paragraph [ref=e42]: Empowering Test Automation Engineers through learning
+        - paragraph [ref=e44]:
+          - text: © 2025 LetCode | Created by
+          - link "Koushik Chatterjee" [ref=e45] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ortoni/
+          - text: "&"
+          - link "Bollineni Lakshmi Yaswanth" [ref=e46] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - insertion [ref=e47]:
+    - iframe [ref=e50]:
+      - generic [active] [ref=f4e1]:
+        - generic [ref=f4e3]:
+          - link:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=C-d4Zd-HgaauyJZKa4dkPjqyK-Aax5YCdhgG00eOikxW_4R4QASDTkZYiYOWS6IPYDqABhbDVyT_IAQKpAp5zJSS_Ckc-qAMByAPJBKoE8AFP0CXrr9daG9tbbSGqSQGEvoXGhNZV4m2_FEv85zhgqZB45cSj9Nk4fHwMZ6Lri6XkS11Alh6sSsesi6ghd7MFDbWBKlDlmk9TmkpOvUHd27GW_YUrpnamX77lprdHMpQn8GmPBp4scXlzNrFviZQ5ZseoKFyy5MNp2f6veYbJo1QAyHJITj9rohcr6wD9nmOgU-s3foKDDzuSLGZZnyJoGDEwXBUWcKfadbTIxOQnPCVJGVntuHgKpPYXbTdMvkbxTMyPDXwuM_ZEc1ClT1GwFxzwwzuYOXjYSZuXx8P0U7R3mIK8ZWXEclf6zI464u7ABJrQ0dzfBYgF1vWIlVigBgKAB4XopakaqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAea4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY8IrswrrykwOxCT3CxW_emrkngAoBmAsByAsBogwDkAEBqg0CSU7IDQHqDRMIhtHtwrrykwMVEk04BR0OlgJv8A0CiA4J2BMC0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSArFfGAIiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI68ntwrrykwMVEk04BR0OlgJvEAEYASAAEgIMF_D_BwE&num=1&cid=CAQS_QEABaugfc-vyjFGYcAABF1NPEjXcU6VUVUXnUXSJqgeep7Wh7tnqsMb4umkYoN9j6X42696BtQS9GBxtd82vAJCrKj8hcJb0bKQaf3IcAUI0BMMUqDTWKqrdrrTQZVQbdtfdkrCo_XnncfmjXpRl_YWzvg9wt9P6znBXc13G0Km8l0mXT3FkU3Zbu8jdh6GUOkB8EPj8XCC-PQf5w2sMw6jSb5gaCEdcScC8VlC_9W8Zle73xoPiuMhdkT_4GE4uF_UbtaBVaPQMEZojpJbtOgaLGKou_zreNioyQw4Qn0rdb-Qij2mA9SY8Tih4_7oi-NGVWyWeJc7ueJOwgoUGAE&sig=AOD64_2NbWf_6N_0-jhoRFwIYRjo5RsUUg&client=ca-pub-6251538267574677&rf=2&nb=2&adurl=https://www.zoho.com/in/payments/industry/education/%3Fnetwork%3Dd%26device%3Dc%26keyword%3D%26campaignid%3D23666506454%26creative%3D800842239090%26matchtype%3D%26adposition%3D%26placement%3Dletcode.in%26adgroup%3D197494335514%26targetid%3D%26gad_source%3D5%26gad_campaignid%3D23666506454%26gclid%3DEAIaIQobChMI68ntwrrykwMVEk04BR0OlgJvEAEYASAAEgIMF_D_BwE
+          - img [ref=f4e7] [cursor=pointer]
+          - button [ref=f4e9] [cursor=pointer]:
+            - img [ref=f4e10]
+        - iframe
+```
