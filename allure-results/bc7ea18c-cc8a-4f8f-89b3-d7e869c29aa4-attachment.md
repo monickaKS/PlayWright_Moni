@@ -1,0 +1,97 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - heading "Windows" [level=1] [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Goto Home
+            - button "Goto Home Open muiltple windows" [ref=e36] [cursor=pointer]: Open Home Page
+          - generic [ref=e37]:
+            - generic [ref=e38]: Open muiltple windows
+            - button "Muiltiple windows" [active] [ref=e40] [cursor=pointer]
+          - list [ref=e43]:
+            - listitem [ref=e44]: Click on the home button
+            - listitem [ref=e45]: Goto the newly opened tab
+            - listitem [ref=e46]: Print the title of the page
+            - listitem [ref=e47]: Close the parent window
+            - listitem [ref=e48]: Close the child window
+            - listitem [ref=e49]: Click on the Muiltiple windows button
+            - listitem [ref=e50]: Print all the window title
+            - listitem [ref=e51]: Close all the windows
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Insight
+            - generic [ref=e59] [cursor=pointer]: 
+          - generic [ref=e61]:
+            - text: On completion of this exercise, you can learn the following concepts.
+            - list [ref=e62]:
+              - listitem [ref=e63]: Window Handling concept
+              - listitem [ref=e64]: close()
+              - listitem [ref=e65]: quit()
+              - listitem [ref=e66]: getTitle()
+              - listitem [ref=e67]: List
+              - listitem [ref=e68]: Set - LinkedHashSet
+              - listitem [ref=e69]: Iterator or loop
+          - iframe [ref=e73]:
+            - generic [ref=f11e2]:
+              - link:
+                - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+                - img [ref=f11e6] [cursor=pointer]
+              - link "LetCode with Koushik" [ref=f11e7] [cursor=pointer]:
+                - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+              - generic [ref=f11e8]:
+                - button "YouTube" [ref=f11e9] [cursor=pointer]:
+                  - generic "YouTube" [ref=f11e11]
+                - button "43K" [ref=f11e12]
+          - button "Watch tutorial" [ref=e75] [cursor=pointer]
+        - generic [ref=e76]:
+          - generic:
+            - generic:
+              - generic:
+                - insertion
+      - generic [ref=e78]:
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - contentinfo [ref=e80]:
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - paragraph [ref=e84]: LetCode by Koushik Chatterjee
+          - paragraph [ref=e85]: Empowering Test Automation Engineers through learning
+        - paragraph [ref=e87]:
+          - text: © 2025 LetCode | Created by
+          - link "Koushik Chatterjee" [ref=e88] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ortoni/
+          - text: "&"
+          - link "Bollineni Lakshmi Yaswanth" [ref=e89] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - iframe [ref=e90]:
+    
+  - generic [ref=e91]:
+    - generic [ref=e92] [cursor=pointer]:
+      - img [ref=e94]
+      - link "Go to shopping options for Open Source" [ref=e96]: Open Source
+    - button "Close shopping anchor" [ref=e97]
+```

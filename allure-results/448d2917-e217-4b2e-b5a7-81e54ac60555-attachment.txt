@@ -1,0 +1,5 @@
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWViMjBmZGY4NmJhNTFhNjU4MjU1ODkiLCJ1c2VyRW1haWwiOiJtb25pY2thMDgxMEBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5ODg0MDM1NzUxLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzc3Mjk1Mzk0LCJleHAiOjE4MDg4NTI5OTR9.RTCXbgbFrfC5FcW1njA9Tgc15lxnmiLFJeXPzmwdcTI',
+  userId: '69eb20fdf86ba51a65825589',
+  message: 'Login Successfully'
+}

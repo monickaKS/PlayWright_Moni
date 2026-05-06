@@ -1,0 +1,122 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - heading "Windows" [level=1] [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Goto Home
+            - button "Goto Home Open muiltple windows" [ref=e36] [cursor=pointer]: Open Home Page
+          - generic [ref=e37]:
+            - generic [ref=e38]: Open muiltple windows
+            - button "Muiltiple windows" [active] [ref=e40] [cursor=pointer]
+          - list [ref=e43]:
+            - listitem [ref=e44]: Click on the home button
+            - listitem [ref=e45]: Goto the newly opened tab
+            - listitem [ref=e46]: Print the title of the page
+            - listitem [ref=e47]: Close the parent window
+            - listitem [ref=e48]: Close the child window
+            - listitem [ref=e49]: Click on the Muiltiple windows button
+            - listitem [ref=e50]: Print all the window title
+            - listitem [ref=e51]: Close all the windows
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Insight
+            - generic [ref=e59] [cursor=pointer]: 
+          - generic [ref=e61]:
+            - text: On completion of this exercise, you can learn the following concepts.
+            - list [ref=e62]:
+              - listitem [ref=e63]: Window Handling concept
+              - listitem [ref=e64]: close()
+              - listitem [ref=e65]: quit()
+              - listitem [ref=e66]: getTitle()
+              - listitem [ref=e67]: List
+              - listitem [ref=e68]: Set - LinkedHashSet
+              - listitem [ref=e69]: Iterator or loop
+          - iframe [ref=e73]:
+            - generic [ref=f18e2]:
+              - link:
+                - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+                - img [ref=f18e6] [cursor=pointer]
+              - link "LetCode with Koushik" [ref=f18e7] [cursor=pointer]:
+                - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+              - generic [ref=f18e8]:
+                - button "YouTube" [ref=f18e9] [cursor=pointer]:
+                  - generic "YouTube" [ref=f18e11]
+                - button "43K" [ref=f18e12]
+          - button "Watch tutorial" [ref=e75] [cursor=pointer]
+        - generic [ref=e76]:
+          - generic:
+            - generic:
+              - generic:
+                - insertion
+      - generic [ref=e78]:
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - contentinfo [ref=e80]:
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - paragraph [ref=e84]: LetCode by Koushik Chatterjee
+          - paragraph [ref=e85]: Empowering Test Automation Engineers through learning
+        - paragraph [ref=e87]:
+          - text: © 2025 LetCode | Created by
+          - link "Koushik Chatterjee" [ref=e88] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ortoni/
+          - text: "&"
+          - link "Bollineni Lakshmi Yaswanth" [ref=e89] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - iframe [ref=e90]:
+    
+  - insertion [ref=e91]:
+    - iframe [ref=e94]:
+      - generic [active] [ref=f9e1]:
+        - generic [ref=f9e6]:
+          - link [ref=f9e7] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C_z4QLbHoabzyIIyIjMwP59DH0ArJvtHShgHZwNLcqRWnycDqkg4QASDTkZYiYOWCgIDYDqABiMvZninIAQmpAgKDXJibrIM-qAMByAPLBKoE6gFP0M3qtTDu8leAmxKs8GA_JrIEJyHV0sALfL-Bk5NRTPzwq2kmNY2pvOsDsXvwsq9xPBfVmxtnq4Oyir86-WAtXQAn6YpKvzjuByvfYKyEGM3SIri_tYnNjjBCFT_yu_ctLyhcQhhy2SKUeOlc-CDV5CZjCfFXBmCv2NglODn3mFaRf2YwzzR7KCeDdI83gA_Zrbgt5jYCegpkiScQ4lb1sBjKbM-lx3q5VvDN410jbHUUHO839bVzHQ_YymOpwkrWQ3msfgY8EoUxSDCQyCtBAhm0xvDgCvJ1UnNsb2dNBLvOpuPRaPZ7yFrABJ2dgLTXBYgF9cvytFigBi6AB4iDqv4DqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAea4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY9pOUzK2BlAOxCclxYZM12Oc7gAoBmAsByAsBgAwBqg0CSU7IDQHqDRMIwcKUzK2BlAMVDASDAx1n6BGq8A0CiA4JsA6Q7f75GNgTC9AVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgLoWBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI_LyUzK2BlAMVDASDAx1n6BGqEAEYASAAEgI8NfD_BwE&num=1&cid=CAQS_AEABaugfVbzw-6cefuTXauCHON8iF5yHF4UK5zOthHXiyXD9_-ciBak4Kot_XYgN59B-iJIMve5vQIchZItRcXf-07UTuoSslqW1eLFmY9kdryMA_EDB90m8z0eD1GxmNnVBSAX2qBQepaNrUf4tnvjsy5g6JK8F8hYT0Pz1II3QMjVrOni8FLLn0DiSbzO08KdgcW1awyaN459dM1jZ78Ag4hLLLn1je4lkgDV3E8gYnZRwZ-8Jn4dImBTWxU37lqAwco_OlSv6TZTklGqHfa46VJ5SbqRpdZL1WOPbRmo86RUMnkP7hzHkWqzBUR1q8ywsz2gbJ6q99XnitQYAQ&sig=AOD64_0o8GIHK_5TO6W5_dMzK0FYOyQpjw&client=ca-pub-6251538267574677&rf=1&nb=9&adurl=https://www.meshy.ai/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_content%3DROW%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_term%3D%26gad_source%3D5%26gad_campaignid%3D23733249525%26gclid%3DEAIaIQobChMI_LyUzK2BlAMVDASDAx1n6BGqEAEYASAAEgI8NfD_BwE
+            - img [ref=f9e8]
+          - generic [ref=f9e12]:
+            - link "Text and images in seconds" [ref=f9e14] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C_z4QLbHoabzyIIyIjMwP59DH0ArJvtHShgHZwNLcqRWnycDqkg4QASDTkZYiYOWCgIDYDqABiMvZninIAQmpAgKDXJibrIM-qAMByAPLBKoE6gFP0M3qtTDu8leAmxKs8GA_JrIEJyHV0sALfL-Bk5NRTPzwq2kmNY2pvOsDsXvwsq9xPBfVmxtnq4Oyir86-WAtXQAn6YpKvzjuByvfYKyEGM3SIri_tYnNjjBCFT_yu_ctLyhcQhhy2SKUeOlc-CDV5CZjCfFXBmCv2NglODn3mFaRf2YwzzR7KCeDdI83gA_Zrbgt5jYCegpkiScQ4lb1sBjKbM-lx3q5VvDN410jbHUUHO839bVzHQ_YymOpwkrWQ3msfgY8EoUxSDCQyCtBAhm0xvDgCvJ1UnNsb2dNBLvOpuPRaPZ7yFrABJ2dgLTXBYgF9cvytFigBi6AB4iDqv4DqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAea4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY9pOUzK2BlAOxCclxYZM12Oc7gAoBmAsByAsBgAwBqg0CSU7IDQHqDRMIwcKUzK2BlAMVDASDAx1n6BGq8A0CiA4JsA6Q7f75GNgTC9AVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgLoWBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI_LyUzK2BlAMVDASDAx1n6BGqEAEYASAAEgI8NfD_BwE&num=1&cid=CAQS_AEABaugfVbzw-6cefuTXauCHON8iF5yHF4UK5zOthHXiyXD9_-ciBak4Kot_XYgN59B-iJIMve5vQIchZItRcXf-07UTuoSslqW1eLFmY9kdryMA_EDB90m8z0eD1GxmNnVBSAX2qBQepaNrUf4tnvjsy5g6JK8F8hYT0Pz1II3QMjVrOni8FLLn0DiSbzO08KdgcW1awyaN459dM1jZ78Ag4hLLLn1je4lkgDV3E8gYnZRwZ-8Jn4dImBTWxU37lqAwco_OlSv6TZTklGqHfa46VJ5SbqRpdZL1WOPbRmo86RUMnkP7hzHkWqzBUR1q8ywsz2gbJ6q99XnitQYAQ&sig=AOD64_0o8GIHK_5TO6W5_dMzK0FYOyQpjw&client=ca-pub-6251538267574677&rf=1&nb=0&adurl=https://www.meshy.ai/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_content%3DROW%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_term%3D%26gad_source%3D5%26gad_campaignid%3D23733249525%26gclid%3DEAIaIQobChMI_LyUzK2BlAMVDASDAx1n6BGqEAEYASAAEgI8NfD_BwE
+            - 'link "Meshy AI - The #1 AI 3D Model Generator for Creators" [ref=f9e17] [cursor=pointer]':
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C_z4QLbHoabzyIIyIjMwP59DH0ArJvtHShgHZwNLcqRWnycDqkg4QASDTkZYiYOWCgIDYDqABiMvZninIAQmpAgKDXJibrIM-qAMByAPLBKoE6gFP0M3qtTDu8leAmxKs8GA_JrIEJyHV0sALfL-Bk5NRTPzwq2kmNY2pvOsDsXvwsq9xPBfVmxtnq4Oyir86-WAtXQAn6YpKvzjuByvfYKyEGM3SIri_tYnNjjBCFT_yu_ctLyhcQhhy2SKUeOlc-CDV5CZjCfFXBmCv2NglODn3mFaRf2YwzzR7KCeDdI83gA_Zrbgt5jYCegpkiScQ4lb1sBjKbM-lx3q5VvDN410jbHUUHO839bVzHQ_YymOpwkrWQ3msfgY8EoUxSDCQyCtBAhm0xvDgCvJ1UnNsb2dNBLvOpuPRaPZ7yFrABJ2dgLTXBYgF9cvytFigBi6AB4iDqv4DqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAea4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY9pOUzK2BlAOxCclxYZM12Oc7gAoBmAsByAsBgAwBqg0CSU7IDQHqDRMIwcKUzK2BlAMVDASDAx1n6BGq8A0CiA4JsA6Q7f75GNgTC9AVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgLoWBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI_LyUzK2BlAMVDASDAx1n6BGqEAEYASAAEgI8NfD_BwE&num=1&cid=CAQS_AEABaugfVbzw-6cefuTXauCHON8iF5yHF4UK5zOthHXiyXD9_-ciBak4Kot_XYgN59B-iJIMve5vQIchZItRcXf-07UTuoSslqW1eLFmY9kdryMA_EDB90m8z0eD1GxmNnVBSAX2qBQepaNrUf4tnvjsy5g6JK8F8hYT0Pz1II3QMjVrOni8FLLn0DiSbzO08KdgcW1awyaN459dM1jZ78Ag4hLLLn1je4lkgDV3E8gYnZRwZ-8Jn4dImBTWxU37lqAwco_OlSv6TZTklGqHfa46VJ5SbqRpdZL1WOPbRmo86RUMnkP7hzHkWqzBUR1q8ywsz2gbJ6q99XnitQYAQ&sig=AOD64_0o8GIHK_5TO6W5_dMzK0FYOyQpjw&client=ca-pub-6251538267574677&rf=1&nb=7&adurl=https://www.meshy.ai/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_content%3DROW%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_term%3D%26gad_source%3D5%26gad_campaignid%3D23733249525%26gclid%3DEAIaIQobChMI_LyUzK2BlAMVDASDAx1n6BGqEAEYASAAEgI8NfD_BwE
+            - link "Meshy.AI" [ref=f9e20] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C_z4QLbHoabzyIIyIjMwP59DH0ArJvtHShgHZwNLcqRWnycDqkg4QASDTkZYiYOWCgIDYDqABiMvZninIAQmpAgKDXJibrIM-qAMByAPLBKoE6gFP0M3qtTDu8leAmxKs8GA_JrIEJyHV0sALfL-Bk5NRTPzwq2kmNY2pvOsDsXvwsq9xPBfVmxtnq4Oyir86-WAtXQAn6YpKvzjuByvfYKyEGM3SIri_tYnNjjBCFT_yu_ctLyhcQhhy2SKUeOlc-CDV5CZjCfFXBmCv2NglODn3mFaRf2YwzzR7KCeDdI83gA_Zrbgt5jYCegpkiScQ4lb1sBjKbM-lx3q5VvDN410jbHUUHO839bVzHQ_YymOpwkrWQ3msfgY8EoUxSDCQyCtBAhm0xvDgCvJ1UnNsb2dNBLvOpuPRaPZ7yFrABJ2dgLTXBYgF9cvytFigBi6AB4iDqv4DqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAea4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY9pOUzK2BlAOxCclxYZM12Oc7gAoBmAsByAsBgAwBqg0CSU7IDQHqDRMIwcKUzK2BlAMVDASDAx1n6BGq8A0CiA4JsA6Q7f75GNgTC9AVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgLoWBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI_LyUzK2BlAMVDASDAx1n6BGqEAEYASAAEgI8NfD_BwE&num=1&cid=CAQS_AEABaugfVbzw-6cefuTXauCHON8iF5yHF4UK5zOthHXiyXD9_-ciBak4Kot_XYgN59B-iJIMve5vQIchZItRcXf-07UTuoSslqW1eLFmY9kdryMA_EDB90m8z0eD1GxmNnVBSAX2qBQepaNrUf4tnvjsy5g6JK8F8hYT0Pz1II3QMjVrOni8FLLn0DiSbzO08KdgcW1awyaN459dM1jZ78Ag4hLLLn1je4lkgDV3E8gYnZRwZ-8Jn4dImBTWxU37lqAwco_OlSv6TZTklGqHfa46VJ5SbqRpdZL1WOPbRmo86RUMnkP7hzHkWqzBUR1q8ywsz2gbJ6q99XnitQYAQ&sig=AOD64_0o8GIHK_5TO6W5_dMzK0FYOyQpjw&client=ca-pub-6251538267574677&rf=1&nb=1&adurl=https://www.meshy.ai/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_content%3DROW%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_term%3D%26gad_source%3D5%26gad_campaignid%3D23733249525%26gclid%3DEAIaIQobChMI_LyUzK2BlAMVDASDAx1n6BGqEAEYASAAEgI8NfD_BwE
+          - link "Learn More" [ref=f9e23] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C_z4QLbHoabzyIIyIjMwP59DH0ArJvtHShgHZwNLcqRWnycDqkg4QASDTkZYiYOWCgIDYDqABiMvZninIAQmpAgKDXJibrIM-qAMByAPLBKoE6gFP0M3qtTDu8leAmxKs8GA_JrIEJyHV0sALfL-Bk5NRTPzwq2kmNY2pvOsDsXvwsq9xPBfVmxtnq4Oyir86-WAtXQAn6YpKvzjuByvfYKyEGM3SIri_tYnNjjBCFT_yu_ctLyhcQhhy2SKUeOlc-CDV5CZjCfFXBmCv2NglODn3mFaRf2YwzzR7KCeDdI83gA_Zrbgt5jYCegpkiScQ4lb1sBjKbM-lx3q5VvDN410jbHUUHO839bVzHQ_YymOpwkrWQ3msfgY8EoUxSDCQyCtBAhm0xvDgCvJ1UnNsb2dNBLvOpuPRaPZ7yFrABJ2dgLTXBYgF9cvytFigBi6AB4iDqv4DqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAea4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY9pOUzK2BlAOxCclxYZM12Oc7gAoBmAsByAsBgAwBqg0CSU7IDQHqDRMIwcKUzK2BlAMVDASDAx1n6BGq8A0CiA4JsA6Q7f75GNgTC9AVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgLoWBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI_LyUzK2BlAMVDASDAx1n6BGqEAEYASAAEgI8NfD_BwE&num=1&cid=CAQS_AEABaugfVbzw-6cefuTXauCHON8iF5yHF4UK5zOthHXiyXD9_-ciBak4Kot_XYgN59B-iJIMve5vQIchZItRcXf-07UTuoSslqW1eLFmY9kdryMA_EDB90m8z0eD1GxmNnVBSAX2qBQepaNrUf4tnvjsy5g6JK8F8hYT0Pz1II3QMjVrOni8FLLn0DiSbzO08KdgcW1awyaN459dM1jZ78Ag4hLLLn1je4lkgDV3E8gYnZRwZ-8Jn4dImBTWxU37lqAwco_OlSv6TZTklGqHfa46VJ5SbqRpdZL1WOPbRmo86RUMnkP7hzHkWqzBUR1q8ywsz2gbJ6q99XnitQYAQ&sig=AOD64_0o8GIHK_5TO6W5_dMzK0FYOyQpjw&client=ca-pub-6251538267574677&rf=1&nb=8&adurl=https://www.meshy.ai/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_content%3DROW%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_term%3D%26gad_source%3D5%26gad_campaignid%3D23733249525%26gclid%3DEAIaIQobChMI_LyUzK2BlAMVDASDAx1n6BGqEAEYASAAEgI8NfD_BwE
+            - generic [ref=f9e24]:
+              - generic [ref=f9e26]: Learn More
+              - generic [ref=f9e28]:
+                - img [ref=f9e29]
+                - img [ref=f9e31]
+        - img [ref=f9e39] [cursor=pointer]
+        - button [ref=f9e41] [cursor=pointer]:
+          - img [ref=f9e42]
+        - iframe
+  - generic [ref=e95]:
+    - generic [ref=e96] [cursor=pointer]:
+      - img [ref=e98]
+      - link "Go to shopping options for Web Browsers" [ref=e100]: Web Browsers
+    - button "Close shopping anchor" [ref=e101]
+```

@@ -1,0 +1,107 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - heading "Windows" [level=1] [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Goto Home
+            - button "Goto Home Open muiltple windows" [ref=e36] [cursor=pointer]: Open Home Page
+          - generic [ref=e37]:
+            - generic [ref=e38]: Open muiltple windows
+            - button "Muiltiple windows" [active] [ref=e40] [cursor=pointer]
+          - list [ref=e43]:
+            - listitem [ref=e44]: Click on the home button
+            - listitem [ref=e45]: Goto the newly opened tab
+            - listitem [ref=e46]: Print the title of the page
+            - listitem [ref=e47]: Close the parent window
+            - listitem [ref=e48]: Close the child window
+            - listitem [ref=e49]: Click on the Muiltiple windows button
+            - listitem [ref=e50]: Print all the window title
+            - listitem [ref=e51]: Close all the windows
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Insight
+            - generic [ref=e59] [cursor=pointer]: 
+          - generic [ref=e61]:
+            - text: On completion of this exercise, you can learn the following concepts.
+            - list [ref=e62]:
+              - listitem [ref=e63]: Window Handling concept
+              - listitem [ref=e64]: close()
+              - listitem [ref=e65]: quit()
+              - listitem [ref=e66]: getTitle()
+              - listitem [ref=e67]: List
+              - listitem [ref=e68]: Set - LinkedHashSet
+              - listitem [ref=e69]: Iterator or loop
+          - iframe [ref=e70]:
+            - generic [ref=f14e2]:
+              - link:
+                - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+                - img [ref=f14e6] [cursor=pointer]
+              - link "LetCode with Koushik" [ref=f14e7] [cursor=pointer]:
+                - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+              - generic [ref=f14e8]:
+                - button "YouTube" [ref=f14e9] [cursor=pointer]:
+                  - generic "YouTube" [ref=f14e11]
+                - button "43K" [ref=f14e12]
+          - button "Watch tutorial" [ref=e72] [cursor=pointer]
+        - generic [ref=e73]:
+          - generic:
+            - generic:
+              - generic:
+                - insertion
+      - generic [ref=e75]:
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - contentinfo [ref=e77]:
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - paragraph [ref=e81]: LetCode by Koushik Chatterjee
+          - paragraph [ref=e82]: Empowering Test Automation Engineers through learning
+        - paragraph [ref=e84]:
+          - text: © 2025 LetCode | Created by
+          - link "Koushik Chatterjee" [ref=e85] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ortoni/
+          - text: "&"
+          - link "Bollineni Lakshmi Yaswanth" [ref=e86] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - iframe [ref=e87]:
+    
+  - insertion [ref=e88]:
+    - iframe [ref=e91]:
+      - generic [active] [ref=f8e1]:
+        - generic [ref=f8e3]:
+          - link:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CEX6AO7ToabG-N_a2s8IPgNjCsQjO-4KwhgG435qu8RW_4R4QASDTkZYiYOWCgIDYDqABhbDVyT_IAQKpAouBPuBf40Y-qAMByAPJBKoE4QFP0N65dIBIrcaUVSC3wcL6STsQWsbD_Qs5DpojkrFN3GVXoB9Sx1Qx6PFj8mSdXZgWEnED2-p2-3iZHDkyiSnZmbMfsqhhj2M3eiNwOSAnk4ulhplKPhIuuKZvt7XaIbaEbsgPOXuoxXazEE1QA_LJ2tdX0l13z4F2PccIue2EaDOvouMGUTvYH8in8x3wl4QUa-gQrRR63ppzo8xA7iNjVriscRR5YbG9EDn7S5dr4kgMsur2Kq2ucPiv47Zf_Tu5w5G8CguJdE6CwdtmNoOZMBLF8pSzBSlcvs6UfDvspY7ABMalk6baBYgFm7XntVigBgKAB4XopakaqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAea4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY8Y2bwbCBlAOxCfvxbStK4wdbgAoBmAsByAsBogwDkAEBqg0CSU7IDQHqDRMIyM2cwbCBlAMVdttMAh0ArDCG8A0CiA4J2BMC0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSArFfGAIiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI8cecwbCBlAMVdttMAh0ArDCGEAEYASAAEgKgsfD_BwE&num=1&cid=CAQS_AEABaugfZnH2Zs4T57rm_asU-fJguPKXeh2EYUwLEVOChxmzY8Rg0f7TM5gjJJ8QnAYrdyHLIuswOroOeQq7zkBkW4DtQt6yyJO8chSXtdelX9gdfAxp5SEOzWQgaMAPB4Bc7wK0mQg6weHnNyCbpZY2yokASesRQFKY7STUpPJsJ13NZKH14uObeXsG_wgQfBtG2IuZSDmhw5LjFC9mhHK13ugA1TMFFoW5DmYKn7AjnRRJL78dVSe8a-I9E9xRo7RyqGbBsLRCWGyZYwxp7D1dPX2rzNaLTJq8tZ01HI5YoFIOLzXhzZxAn3-3318SVsbhUrrSWIq4Hrx6T8YAQ&sig=AOD64_03HRTsSMWewFd0GGZKQAPSguEC8w&client=ca-pub-6251538267574677&rf=2&nb=2&adurl=https://www.zoho.com/in/payments/industry/nonprofit/%3Fnetwork%3Dd%26device%3Dc%26keyword%3D%26campaignid%3D23735163547%26creative%3D804161658370%26matchtype%3D%26adposition%3D%26placement%3Dletcode.in%26adgroup%3D196037890758%26targetid%3D%26gad_source%3D5%26gad_campaignid%3D23735163547%26gclid%3DEAIaIQobChMI8cecwbCBlAMVdttMAh0ArDCGEAEYASAAEgKgsfD_BwE
+          - img [ref=f8e7] [cursor=pointer]
+          - button [ref=f8e9] [cursor=pointer]:
+            - img [ref=f8e10]
+        - iframe
+  - generic [ref=e92]:
+    - generic [ref=e93] [cursor=pointer]:
+      - img [ref=e95]
+      - link "Go to shopping options for Open Source" [ref=e97]: Open Source
+    - button "Close shopping anchor" [ref=e98]
+```

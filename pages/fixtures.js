@@ -18,7 +18,7 @@ export const test = base.extend({
   AuthSitePage: async({page}, use)=>{
     
     //const authsite = new AuthSite(page);
-    await page.goto("/web/index.php/dashboard/index");
+    await page.goto("/");
     await use(page);
 
 

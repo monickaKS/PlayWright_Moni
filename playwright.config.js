@@ -7,7 +7,8 @@ import { defineConfig, devices } from '@playwright/test';
  */
 import dotenv from 'dotenv';
 import path from 'path';
-dotenv.config({ path: path.resolve(__dirname, './env/.env') });
+const envFile = process.env.ENV || '.env';
+dotenv.config({ path: path.resolve(__dirname, `env/${envFile}`) });
 
 /**
  * @see https://playwright.dev/docs/test-configuration
@@ -15,7 +16,7 @@ dotenv.config({ path: path.resolve(__dirname, './env/.env') });
 export default defineConfig({
 
   testDir: './tests',
-  globalSetup: './global-setup.js', 
+ globalSetup: './global-setup.js', 
   
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -40,9 +41,9 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-   baseURL: process.env.BASE_URL ,/*from dotenv*/
-    // baseURL: process.env.BASE_URL || 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
-     storageState: 'state.json',
+   //baseURL: process.env.BASE_URL ,/*from dotenv*/
+    baseURL: process.env.BASE_URL , /*from system environment variable*/
+   storageState: 'state.json',
   },
 
   /* Configure projects for major browsers */
